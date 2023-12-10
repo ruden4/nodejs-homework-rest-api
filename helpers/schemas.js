@@ -15,8 +15,8 @@ const putSchema = Joi.object({
 }).or("name", "email", "phone", "favorite");
 
 const addToFavSchema = Joi.object({
-  favorite:Joi.boolean().required()
-})
+  favorite: Joi.boolean().required()
+});
 
 module.exports = {
   addSchema,
