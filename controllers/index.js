@@ -13,19 +13,21 @@ const {
   logout,
   current,
   updateSub,
-} = require('./auth');
+  updateAvatar,
+} = require("./auth");
 
 
 module.exports = {
-    getAll,
-    getById,
-    addContact,
-    deleteContact,
-    updateContact,
-    addToFavorite,
-    register,
-    login,
-    logout,
-    current,
-    updateSub,
+  getAll,
+  getById,
+  addContact,
+  deleteContact,
+  updateContact,
+  addToFavorite,
+  register,
+  login,
+  logout,
+  current,
+  updateSub,
+  updateAvatar,
 };
