@@ -9,6 +9,7 @@ const {
 const handleMongooseError = require("./handleMongooseError");
 const isValidId = require("../middlewares/isValidId");
 const ctrlWrapper = require("./ctrlWrap");
+const sendEmail = require("./sendEmail");
 
 module.exports = {
   addSchema,
@@ -20,4 +21,5 @@ module.exports = {
   handleMongooseError,
   isValidId,
   ctrlWrapper,
+  sendEmail
 };
